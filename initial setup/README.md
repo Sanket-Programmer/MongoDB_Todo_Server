@@ -11,4 +11,5 @@
 <p>Important :- Unless and untill we create a collection in a created database the particular database is not created.</p>
 
 <p>Following image represents the commands to show, create, delete databases & collections:</p>
+
 ![show & delete dbs and collections](image.png)

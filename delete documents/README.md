@@ -4,14 +4,18 @@
 
 <h2>To delete the documents we use the following syntaxes: </h2>
 
-<ul>
-    <li>db.collectionName.deleteOne({ filter }) : deletes only one document based on the filter</li>
-    ![delete one document](image-1.png)
-    <li>db.collectionName.deleteMany({ price: 55 }) : deletes all those document that matches the filter</li>
-    ![delete many documents](image-2.png)
-    <li>db.collectionName.deleteMany({}) : deletes all the documents in a collection</li>
-    ![delete all documents](image-3.png)
-</ul>
+<p>1. db.collectionName.deleteOne({ filter }) : deletes only one document based on the filter</p>
+
+![delete one document](image-1.png)
+
+<p>2. db.collectionName.deleteMany({ price: 55 }) : deletes all those document that matches the filter</p>
+
+![delete many documents](image-2.png)
+
+<p>3. db.collectionName.deleteMany({}) : deletes all the documents in a collection</p>
+
+![delete all documents](image-3.png)
+
 
 <h3>These are the following commands used for the above operations</h3>
 
